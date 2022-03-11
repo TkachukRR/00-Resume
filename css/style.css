@@ -51,7 +51,7 @@ body {
 }
 
 .about_me_text{
-    width: 400px;
+    max-width: 75%;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -196,7 +196,9 @@ body {
 
 .cotacts,
 .tech_skills,
-.soft_skills {
+.soft_skills,
+.bio,
+.lang_skills {
     margin: 50px 0 0 40px;
 }
 
@@ -220,7 +222,8 @@ body {
     margin-right: 7px;
 }
 
-.cotacts_link{
+.cotacts_link,
+.bio__info {
     color: #8E949C;
     font-style: normal;
     font-weight: normal;
@@ -229,17 +232,25 @@ body {
 }
 
 /* tech skills */
+/* soft skills */
+/* lang skills */
 
-.tech_skills_list{
+.tech_skills_list, 
+.lang_skills_list,
+.soft_skills_list {
     padding: 0;
     padding-left: 17px;   
 }
 
-.tech_skills_list_item{
+.tech_skills_list_item,
+.soft_skills_list_item,
+.lang_skills_list_item {
     color : #FB6D3A;
 }
 
-.tech_skills_list_item_text{
+.tech_skills_list_item_text,
+.lang_skills_list_item_text,
+.soft_skills_list_item_text {
     color: #fff;
     font-style: normal;
     font-weight: normal;
@@ -247,21 +258,11 @@ body {
     line-height: 24px;
 }
 
-/* soft skills */
 
-.soft_skills_list{
-    padding: 0;
-    padding-left: 17px;   
-}
 
-.soft_skills_list_item{
-    color : #FB6D3A;   
-}
 
-.soft_skills_list_item_text{
-    color: #fff;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-}
+
+
+
+
+
