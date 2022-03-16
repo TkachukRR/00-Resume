@@ -131,11 +131,20 @@ body {
 }
 
 
+
 @media screen and (max-width: 640px) {
     .about_me_name {
         font-size: 25px;
         line-height: 35px;
         margin: 0 0 15px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about_me_name {
+        width: 50%;
+        
+        margin: 0 0 45px 0;
     }
 }
 
@@ -151,6 +160,12 @@ body {
 @media screen and (max-width: 640px) {
     .about_me_text {
         max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about_me_text {
+        max-width: 100%;
     }
 }
 
@@ -215,6 +230,26 @@ body {
         display: block;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .my_project_list_link,
+    .my_project_list_text,
+    .my_project_list_bracket,
+    .my_project_list_bracket1
+    {
+        font-size: 10px;
+    }
+
+    .my_project_list_bracket1::before {
+        content: '';
+        display: none;
+    }
+}
+
+
+
+
+
 
 
 /* work experience */
@@ -333,6 +368,15 @@ body {
         top: 100px;
         right: 50px;
         width: 30%;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar_img {
+        position: absolute;
+        top: 30px;
+        right: 50px;
         border-radius: 50%;
     }
 }
