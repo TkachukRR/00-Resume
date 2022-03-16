@@ -136,13 +136,14 @@ body {
     .about_me_name {
         font-size: 25px;
         line-height: 35px;
-        margin: 0 0 15px 0;
+        margin: 0 0 25px 0;
+        
+        width: 100px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .about_me_name {
-        width: 50%;
         
         margin: 0 0 45px 0;
     }
@@ -163,7 +164,7 @@ body {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 639px) {
     .about_me_text {
         max-width: 100%;
     }
@@ -365,21 +366,21 @@ body {
 @media screen and (max-width: 640px) {
     .sidebar_img {
         position: absolute;
-        top: 100px;
+        top: 30px;
         right: 50px;
-        width: 30%;
+        width: 120px;
         border-radius: 50%;
     }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .sidebar_img {
         position: absolute;
         top: 30px;
         right: 50px;
         border-radius: 50%;
     }
-}
+} */
 
 .cotacts,
 .tech_skills,
