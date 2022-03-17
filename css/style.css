@@ -14,7 +14,6 @@ body {
     .main_conteiner {
         flex-direction:column;
         margin: 15px auto;
-        position: relative;
     }
 }
 /* main content */
@@ -22,15 +21,16 @@ body {
 .main_content{
     padding: 40px;
     box-shadow: 6px 6px 20px;
+    position: relative;
 }
 
 @media screen and (max-width: 680px) {
     .main_content {
         flex-direction:column;
         padding: 40px;
+        position: relative;
     }
 }
-
 
 /* about me section */
 
@@ -47,8 +47,8 @@ body {
 
     position: absolute;
 
-    right: 30px;
-    top: 27px;
+    right: 7px;
+    top: -12px;
 }
 
 .lang__item {
@@ -136,20 +136,8 @@ body {
     .about_me_name {
         font-size: 25px;
         line-height: 35px;
-<<<<<<< HEAD
         margin: 0 0 45px 0;
-=======
-        margin: 0 0 25px 0;
->>>>>>> 1892bd2101915d90052a74b1468c84fd20632aa7
-        
         width: 100px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .about_me_name {
-        
-        margin: 0 0 45px 0;
     }
 }
 
@@ -163,12 +151,8 @@ body {
 }
 
 
-<<<<<<< HEAD
 
 @media screen and (max-width: 680px) {
-=======
-@media screen and (max-width: 639px) {
->>>>>>> 1892bd2101915d90052a74b1468c84fd20632aa7
     .about_me_text {
         max-width: 100%;
     }
@@ -312,7 +296,6 @@ body {
 @media screen and (max-width: 680px) {
     .main_content_title {
         font-size: 18px;
-        
         margin: 10px 0 10px 0;
     }
 }
@@ -365,10 +348,7 @@ body {
     width: 370px;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 680px) {
-=======
-@media screen and (max-width: 640px) {
     .sidebar_img {
         position: absolute;
         top: 30px;
@@ -377,17 +357,6 @@ body {
         border-radius: 50%;
     }
 }
-
-/* @media screen and (max-width: 400px) {
->>>>>>> 1892bd2101915d90052a74b1468c84fd20632aa7
-    .sidebar_img {
-        position: absolute;
-        top: 30px;
-        right: 50px;
-        width: 120px;
-        border-radius: 50%;
-    }
-} */
 
 .cotacts,
 .tech_skills,
