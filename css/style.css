@@ -126,6 +126,8 @@ body {
     line-height: 55px;
     color: #000000;
     margin: 0 0 25px 0;
+    display: block;
+    width: 10%;
 }
 
 
@@ -135,7 +137,6 @@ body {
         font-size: 25px;
         line-height: 35px;
         margin: 0 0 45px 0;
-        width: 1%;
     }
 }
 
