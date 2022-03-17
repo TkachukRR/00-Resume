@@ -136,7 +136,11 @@ body {
     .about_me_name {
         font-size: 25px;
         line-height: 35px;
+<<<<<<< HEAD
         margin: 0 0 45px 0;
+=======
+        margin: 0 0 25px 0;
+>>>>>>> 1892bd2101915d90052a74b1468c84fd20632aa7
         
         width: 100px;
     }
@@ -159,8 +163,12 @@ body {
 }
 
 
+<<<<<<< HEAD
 
 @media screen and (max-width: 680px) {
+=======
+@media screen and (max-width: 639px) {
+>>>>>>> 1892bd2101915d90052a74b1468c84fd20632aa7
     .about_me_text {
         max-width: 100%;
     }
@@ -357,7 +365,10 @@ body {
     width: 370px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 680px) {
+=======
+@media screen and (max-width: 640px) {
     .sidebar_img {
         position: absolute;
         top: 30px;
@@ -366,6 +377,17 @@ body {
         border-radius: 50%;
     }
 }
+
+/* @media screen and (max-width: 400px) {
+>>>>>>> 1892bd2101915d90052a74b1468c84fd20632aa7
+    .sidebar_img {
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        width: 120px;
+        border-radius: 50%;
+    }
+} */
 
 .cotacts,
 .tech_skills,
